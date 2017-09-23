@@ -27,7 +27,7 @@ public class LargestNumber {
         double num3 = keyboard.nextInt();
          Object[] largestNumber;
         
-        System.out.printf("The largest of the numbers is %d%n", largestNumber(num1,num2,n3));
+        System.out.printf("The largest of the numbers is %n", largestNumber(num1,num2,num3));
      }
     
 
