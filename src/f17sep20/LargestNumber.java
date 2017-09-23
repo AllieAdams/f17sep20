@@ -27,19 +27,18 @@ public class LargestNumber {
         double num3 = keyboard.nextInt();
          Object[] largestNumber;
         
-        System.out.printf("The largest of the numbers is %n", largestNumber(num1,num2,num3));
+        System.out.printf("The largest of the numbers is %f%n", largestNumber(num1,num2,num3));
      }
     
 
 
 public static double largestNumber(double num1, double num2, double num3)
 {
- double largest =0;
- if (num1 > largest)
-     num1 = largest;
+ double largest =num1;
  if(num2 > largest)
-     num2 = largest;
- else num3 = largest;
+     largest = num2;
+ if (num3 > largest)
+     largest = num3;
  return largest;
 }
 }
